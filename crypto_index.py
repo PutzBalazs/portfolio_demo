@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def get_price(symbol, interval, limit):
-    kline_url = "https://api.binance.com/api/v3/klines"
+    kline_url = "https://api.binance.us/api/v3/klines"
     closed_prices = []
     params = {
         'symbol': f'{symbol}USDT',
